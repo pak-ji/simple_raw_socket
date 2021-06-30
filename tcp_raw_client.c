@@ -86,7 +86,7 @@ int main (void)
 	strcpy(source_ip , "127.0.0.1");
 	sin.sin_family = AF_INET;
 	//sin.sin_port = htons(9999);
-	sin.sin_addr.s_addr = inet_addr ("127.0.0.1");
+	sin.sin_addr.s_addr = inet_addr("127.0.0.1");
 	
 	//Fill in the IP Header
 	iph->ihl = 5;
